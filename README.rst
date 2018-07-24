@@ -44,7 +44,7 @@ project::
 
     $ (not implemented) insert_toolbar [yes]: If you would like a tool bar on your application, press enter or type yes.
 
-    $ (not implemented)insert_statusbar [yes]: If you would like a movable status bar on your application, press enter or type yes.
+    $ (not implemented) insert_statusbar [yes]: If you would like a movable status bar on your application, press enter or type yes.
 
 
 
