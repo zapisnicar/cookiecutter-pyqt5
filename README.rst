@@ -36,15 +36,15 @@ project::
     $ application_name [application]: Enter the name of your GUI application.
 
     $ application_title [Template]: Enter the title of your application. This name is also used
-      as an entry point into the application.
+      as an entry point into the application. (not implemented)
 
     $ project_short_description [A PyQt5 GUI application]: Enter a short description about your project.
 
     $ version [0.0.1]: Enter the version number for your application.
 
-    $ insert_toolbar [yes]: If you would like a tool bar on your application, press enter or type yes.
+    $ (not implemented) insert_toolbar [yes]: If you would like a tool bar on your application, press enter or type yes.
 
-    $ insert_statusbar [yes]: If you would like a movable status bar on your application, press enter or type yes.
+    $ (not implemented)insert_statusbar [yes]: If you would like a movable status bar on your application, press enter or type yes.
 
 
 

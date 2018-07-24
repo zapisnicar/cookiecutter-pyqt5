@@ -76,7 +76,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "My Window"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "{{cookiecutter.application_title}}"))
         self.myLabel.setText(_translate("MainWindow", "My Label"))
         self.cancelButton.setText(_translate("MainWindow", "Cancel"))
         self.okButton.setText(_translate("MainWindow", "OK"))
