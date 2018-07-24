@@ -16,7 +16,7 @@ setup(
 #    package_data={'{{cookiecutter.package_name}}.images': ['*.png']},
     entry_points={
         'console_scripts': [
-            '{{cookiecutter.application_name}}={{cookiecutter.package_name}}.app:main'
+            '{{cookiecutter.application_title}}={{cookiecutter.package_name}}.app:main'
         ]
     },
     install_requires=requirements,
