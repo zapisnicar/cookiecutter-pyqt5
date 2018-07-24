@@ -1,7 +1,7 @@
 {
     "full_name": "Pesnik Zapisnicar",
-    "email": "info@pesnik.xyz",
-    "github_username": "pesnik",
+    "email": "zapisnicar@mail.xyz",
+    "github_username": "zapisnicar",
     "repo_name": "PyQt5_demo",
     "package_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_') }}",
     "application_name": "application",
