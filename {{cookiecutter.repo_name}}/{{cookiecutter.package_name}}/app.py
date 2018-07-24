@@ -102,7 +102,7 @@ class Worker(QThread):
         arguments = QCoreApplication.arguments()
         if len(arguments) > 1:
             for arg in arguments[1:]:
-                self.send_text.emit('{}\n'.format(arg))
+                self.send_text.emit(arg)
 
 
 def main(args=sys.argv):
