@@ -1,5 +1,5 @@
 {
-    "full_name": "Pesnik Zapisnicar",
+    "full_name": "Dragan Petrovic",
     "email": "zapisnicar@mail.xyz",
     "github_username": "zapisnicar",
     "repo_name": "PyQt5_demo",
@@ -7,7 +7,5 @@
     "application_name": "application",
     "application_title": "Template",
     "project_short_description": "A PyQt5 GUI application",
-    "version": "0.0.1",
-    "insert_toolbar": "yes",
-    "insert_statusbar": "yes"
+    "version": "0.0.1"
 }
