@@ -23,7 +23,7 @@ With cookiecutter installed, the PyQt5 cookiecutter template can be installed wi
 Once cookiecutter clones the template, the user will be asked a series of questions related to their
 project::
 
-    $ full_name [Pesnik Zapisnicar]: Enter your full name.
+    $ full_name [Dragan Petrovic]: Enter your full name.
 
     $ email [zapisnicar@mail.xyz]: Enter your email address.
 
@@ -42,11 +42,7 @@ project::
 
     $ version [0.0.1]: Enter the version number for your application.
 
-    $ (not implemented) insert_toolbar [yes]: If you would like a tool bar on your application, press enter or type yes.
-
-    $ (not implemented) insert_statusbar [yes]: If you would like a movable status bar on your application, press enter or type yes.
-
-
+    
 
 Usage
 -------
@@ -54,3 +50,7 @@ Usage
 With the questions during installation answered, the user will have a fully functioning Python project
 in their current working directory. This package will contain a GUI application template in the package
 directory. All the user needs to finish coding is the rest of their GUI application.
+
+Source files (*.ui and sample icons) for PyQt5 Designer are inside /designer directory. Compile it with
+Makefile.
+
