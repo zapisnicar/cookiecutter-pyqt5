@@ -1,6 +1,6 @@
 ###### EDIT #####################
 # Directory with ui and resource files, without trailing SLASH
-RESOURCE_DIR = designer
+DESIGNER_DIR = designer
 
 # Directory for compiled resources (RELATIVE TO src/), without trailing SLASH
 COMPILED_DIR = {{cookiecutter.package_name}}/gui
@@ -19,19 +19,19 @@ PYRCC = pyrcc5
 
 IMPORT_FROM = $(subst /,.,$(COMPILED_DIR))
 COMPILED_UI = $(UI_FILES:%.ui=$(COMPILED_DIR)/%.py)
-COMPILED_RESOURCES = $(QRC_FILES:%.qrc=$(COMPILED_DIR)/%_rc.py)
+COMPILED_QRC = $(QRC_FILES:%.qrc=$(COMPILED_DIR)/%_rc.py)
 
 all : resources ui
 
-resources : $(COMPILED_RESOURCES)
+resources : $(COMPILED_QRC)
 
 ui : $(COMPILED_UI)
 
-$(COMPILED_DIR)/%.py : $(RESOURCE_DIR)/%.ui
+$(COMPILED_DIR)/%.py : $(DESIGNER_DIR)/%.ui
 	$(PYUIC) $< -o $@ --import-from=$(IMPORT_FROM)
 
-$(COMPILED_DIR)/%_rc.py : $(RESOURCE_DIR)/%.qrc
+$(COMPILED_DIR)/%_rc.py : $(DESIGNER_DIR)/%.qrc
 	$(PYRCC) $< -o $@
 
 clean :
-	$(RM) $(COMPILED_UI) $(COMPILED_RESOURCES) $(COMPILED_UI:.py=.pyc) $(COMPILED_RESOURCES:.py=.pyc)
+	$(RM) $(COMPILED_UI) $(COMPILED_QRC) $(COMPILED_UI:.py=.pyc) $(COMPILED_QRC:.py=.pyc)
