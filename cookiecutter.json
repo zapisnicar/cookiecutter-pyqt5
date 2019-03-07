@@ -1,7 +1,7 @@
 {
     "full_name": "Dragan Petrovic",
-    "email": "zapisnicar@mail.xyz",
-    "github_username": "zapisnicar",
+    "email": "myaddress@mail.xyz",
+    "github_username": "githubuser",
     "repo_name": "PyQt5_demo",
     "package_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_') }}",
     "application_name": "application",
