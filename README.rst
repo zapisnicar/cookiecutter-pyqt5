@@ -25,13 +25,13 @@ project::
 
     $ full_name [Dragan Petrovic]: Enter your full name.
 
-    $ email [zapisnicar@mail.xyz]: Enter your email address.
+    $ email [myaddress@mail.xyz]: Enter your email address.
 
-    $ github_username [zapisnicar]: Enter your github username.
+    $ github_username [githubuser]: Enter your github username.
 
-    $ repo_name [cookiecutter-pyqt5]: Enter the name of your project's repository.
+    $ repo_name [PyQt5_demo]: Enter the name of your project's repository.
 
-    $ package_name [cookiecutter-pyqt5]: Enter the name of your application's package.
+    $ package_name [pyqt5_demo]: Enter the name of your application's package.
 
     $ application_name [application]: Enter the name of your GUI application.
 
