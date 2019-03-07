@@ -2,7 +2,7 @@
 # Directory with ui and resource files, without trailing SLASH
 DESIGNER_DIR = designer
 
-# Directory for compiled resources (RELATIVE TO src/), without trailing SLASH
+# Directory for compiled resources, without trailing SLASH
 COMPILED_DIR = {{cookiecutter.package_name}}/gui
 
 # UI files to compile, separated by SPACE
