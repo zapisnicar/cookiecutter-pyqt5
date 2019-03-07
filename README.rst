@@ -42,7 +42,7 @@ project::
 
     $ version [0.0.1]: Enter the version number for your application.
 
-    
+
 
 Usage
 -------
@@ -53,4 +53,3 @@ directory. All the user needs to finish coding is the rest of their GUI applicat
 
 Source files (*.ui and sample icons) for PyQt5 Designer are inside /designer directory. Compile it with
 Makefile.
-
