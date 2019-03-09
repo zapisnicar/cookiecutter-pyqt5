@@ -23,7 +23,7 @@ With cookiecutter installed, the PyQt5 cookiecutter template can be installed wi
 Once cookiecutter clones the template, the user will be asked a series of questions related to their
 project::
 
-    $ full_name [Dragan Petrovic]: Enter your full name.
+    $ full_name [My Name]: Enter your full name.
 
     $ email [myaddress@mail.xyz]: Enter your email address.
 
