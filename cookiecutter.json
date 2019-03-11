@@ -1,6 +1,6 @@
 {
     "full_name": "My Name",
-    "email": "myaddress@mail.xyz",
+    "email": "myaddress@mail.com",
     "github_username": "githubuser",
     "repo_name": "PyQt5_demo",
     "package_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_') }}",
