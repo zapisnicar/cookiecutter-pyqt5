@@ -23,7 +23,7 @@ project:
 
     $ full_name [My Name]: Enter your full name.
 
-    $ email [myaddress@mail.xyz]: Enter your email address.
+    $ email [myaddress@mail.com]: Enter your email address.
 
     $ github_username [githubuser]: Enter your github username.
 
