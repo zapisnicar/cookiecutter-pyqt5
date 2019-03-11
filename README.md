@@ -1,27 +1,25 @@
 
-Cookiecutter-PyQt5 is a Cookiecutter_ template that assists users in their creation of GUI applications.
+Cookiecutter-PyQt5 is a [Cookiecutter](http://github.com/audreyr/cookiecutter) template that assists users in their creation of GUI applications.
 
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-
-Features
---------
+---
+## Features
 
 * GUI application template
 * Package creation with ready-made setup.py
 
-Installation
-------------
+---
+## Installation
 
-Prior to installing the PyQt5 cookiecutter, the cookiecutter package must be installed in the user's virtual environment. This is achieved via the following command::
+Prior to installing the PyQt5 cookiecutter, the cookiecutter package must be installed in the user's virtual environment. This is achieved via the following command:
 
     $ pip install cookiecutter
 
-With cookiecutter installed, the PyQt5 cookiecutter template can be installed with::
+With cookiecutter installed, the PyQt5 cookiecutter template can be installed with:
 
     $ cookiecutter https://github.com/zapisnicar/cookiecutter-pyqt5.git
 
 Once cookiecutter clones the template, the user will be asked a series of questions related to their
-project::
+project:
 
     $ full_name [My Name]: Enter your full name.
 
@@ -43,13 +41,13 @@ project::
     $ version [0.0.1]: Enter the version number for your application.
 
 
-
-Usage
--------
+---
+## Usage
 
 With the questions during installation answered, the user will have a fully functioning Python project
 in their current working directory. This package will contain a GUI application template in the package
 directory. All the user needs to finish coding is the rest of their GUI application.
 
-Source files (*.ui and sample icons) for PyQt5 Designer are inside /designer directory. Compile it with
-Makefile.
+Source files (*.ui and sample icons) for Qt Designer are inside /designer directory. Compile it with Makefile.
+
+[Included icons are free for comercial use.](https://www.creativefreedom.co.uk/)
